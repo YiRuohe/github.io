@@ -14,10 +14,6 @@
 * 文章模板：blog.io/_posts/2015-03-02-how-to-write.md 
 * 
 
-## 模板作者
-
-陈素封，博客：独立写生：[cnfeat.com](cnfeat.com)
-
-联系方式：cnfeat@gmail.com
+从小曾哥blog看到的：https://xiangrongzeng.github.io/blog/how-to-build-blog.html
 
 
