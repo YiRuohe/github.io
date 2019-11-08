@@ -44,7 +44,7 @@ contributions：
 cell存储长时间信息 三个门控制信息进出cell 公式：
 
 <center>
-	<p><img src="https://raw.githubusercontent.com/xiangrongzeng/waaaaaag.github.io/edit/master/_posts/img/clip_image002.jpg" align="center"></p>
+	<p><img src="https://raw.githubusercontent.com/xiangrongzeng/waaaaaag.github.io/edit/master/_posts/img/clip_image002.png" align="center"></p>
 </center>
 input gates（2）Forget gates (Eq. 3) and output gates (Eq. 4)
 
@@ -53,7 +53,7 @@ LSTM可以学到语义丰富的句子表示，但我们想读取两个句子来�
 High-level structure：
 
 <center>
-	<p><img src="https://raw.githubusercontent.com/xiangrongzeng/waaaaaag.github.io/edit/master/_posts/img/clip_image004.jpg" align="center"></p>
+	<p><img src="https://raw.githubusercontent.com/xiangrongzeng/waaaaaag.github.io/edit/master/_posts/img/clip_image004.png" align="center"></p>
 </center>
 
 一个LSTM读premise 不同参数的LSTM读分隔符和hypothesis
@@ -75,13 +75,13 @@ vocab以外的词随机初始化（-0.5，0.5），随训练optimize 。那么�
 Attetion:
 
 <center>
-	<p><img src="https://raw.githubusercontent.com/xiangrongzeng/waaaaaag.github.io/edit/master/_posts/img/clip_image006.jpg" align="center"></p>
+	<p><img src="https://raw.githubusercontent.com/xiangrongzeng/waaaaaag.github.io/edit/master/_posts/img/clip_image006.png" align="center"></p>
 </center>
 
  
 
 <center>
-	<p><img src="https://raw.githubusercontent.com/xiangrongzeng/waaaaaag.github.io/edit/master/_posts/img/clip_image008.jpg" align="center"></p>
+	<p><img src="https://raw.githubusercontent.com/xiangrongzeng/waaaaaag.github.io/edit/master/_posts/img/clip_image008.png" align="center"></p>
 </center>
 
 Word-by-word attention:
@@ -89,7 +89,7 @@ Word-by-word attention:
 similar to Bahdanau et al. [2014], Hermann et al. [2015] and Rush et al. [2015].但是不用attention生成词，而是通过句子里的短语、词的软对齐对句子对编码
 
 <center>
-	<p><img src="https://raw.githubusercontent.com/xiangrongzeng/waaaaaag.github.io/edit/master/_posts/img/clip_image010.jpg" align="center"></p>
+	<p><img src="https://raw.githubusercontent.com/xiangrongzeng/waaaaaag.github.io/edit/master/_posts/img/clip_image010.png" align="center"></p>
 </center>
 
 Two-way attention
