@@ -46,7 +46,9 @@ cell存储长时间信息 三个门控制信息进出cell 公式：
  <center>
 	<p><img src="https://raw.githubusercontent.com/waaaaaag/waaaaaag.github.io/master/_posts/img/clip_image001.png" align="center"></p>
 </center>
-
+ <center>
+	<p><img src="https://raw.githubusercontent.com/waaaaaag/waaaaaag.github.io/master/_posts/img/clip_image002.jpg" align="center"></p>
+</center>
 LSTM可以学到语义丰富的句子表示，但我们想读取两个句子来确定蕴含关系，从而推理词语与短语的蕴含
 
 High-level structure：
