@@ -43,7 +43,6 @@ contributions：
 
 cell存储长时间信息 三个门控制信息进出cell 公式：
 
-![计算机生成了可选文字: =0（口H十bt） ft一0H十bf) (l) （2） （3） ct一ft00一1十it@tanh（H十If) ht=@tanh(ct) （4） （5） （6）]
 <center>
 	<p><img src="https://raw.githubusercontent.com/xiangrongzeng/waaaaaag.github.io/edit/master/_posts/img/clip_image002.jpg" align="center"></p>
 </center>
@@ -53,7 +52,7 @@ LSTM可以学到语义丰富的句子表示，但我们想读取两个句子来�
 
 High-level structure：
 
-![(C) Word-by-word  Attention  (A) LSTMs  A  wedding party taking pictures  Premise  ) Attention  co  xo  Someone got married  Hypothesis ]<center>
+<center>
 	<p><img src="https://raw.githubusercontent.com/xiangrongzeng/waaaaaag.github.io/edit/master/_posts/img/clip_image004.jpg" align="center"></p>
 </center>
 
@@ -75,13 +74,13 @@ vocab以外的词随机初始化（-0.5，0.5），随训练optimize 。那么�
 
 Attetion:
 
-![M = tanh(WYY + W  softmax(wTM)  M IRkxL  r € IRk  (7)  (8)  (9) ]<center>
+<center>
 	<p><img src="https://raw.githubusercontent.com/xiangrongzeng/waaaaaag.github.io/edit/master/_posts/img/clip_image006.jpg" align="center"></p>
 </center>
 
  
 
-![h*  tanh(WPr + W XhN)  h* e IRk  (10) ]<center>
+<center>
 	<p><img src="https://raw.githubusercontent.com/xiangrongzeng/waaaaaag.github.io/edit/master/_posts/img/clip_image008.jpg" align="center"></p>
 </center>
 
@@ -89,7 +88,7 @@ Word-by-word attention:
 
 similar to Bahdanau et al. [2014], Hermann et al. [2015] and Rush et al. [2015].但是不用attention生成词，而是通过句子里的短语、词的软对齐对句子对编码
 
-![Mt = tanh(WYY + (Whht + WTrt_  t)  — softmax(w M  rt = + tanh(Wtrt-1)  eL)  (11)  (12)  (13)  The final sentence-pair representation is obtained from the last attention-weighted representation  of the premise and the last output vector using  h* = tanh(WPrL _+_ W XhN) ]<center>
+<center>
 	<p><img src="https://raw.githubusercontent.com/xiangrongzeng/waaaaaag.github.io/edit/master/_posts/img/clip_image010.jpg" align="center"></p>
 </center>
 
