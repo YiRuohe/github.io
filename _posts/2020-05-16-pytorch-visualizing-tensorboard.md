@@ -11,7 +11,7 @@ ICLR 2016 Reasoning about Entailment with Neural Attention
 
  
 
- 
+
 $$
 x = ssda*das*dadasd*asd
 $$
