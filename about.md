@@ -7,5 +7,5 @@ header-img: "img/black.jpg"
 
 <center>有问题请联系我。</center>
 
-<img src="\img\20200516190635.jpg" alt="20200516190635" style="zoom: 50%;" />
+<img src="https://github.com/YiRuohe/YiRuohe.github.io/blob/master/_posts/img/20200516190635.jpg" style="zoom: 50%;" />
 
