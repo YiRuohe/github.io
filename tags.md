@@ -5,7 +5,7 @@ description: "文章基因库"
 header-img: "img/black.jpg"  
 ---
 
-##基因列表
+## 基因列表
 
 
 <div id='tag_cloud'>
