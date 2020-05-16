@@ -11,18 +11,18 @@ layout: default
 <header class="intro-header" >
     <div class="container">
         <div class="row">
-            <div class="col-lg-7 col-lg-offset-3 col-md-8 col-md-offset-2">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="post-heading">
                     <div class="Tags">
                         {% for tag in page.tags %}
-                        <a class="tag" href="/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>
+                        <a class="tag" href="/Tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>
                         {% endfor %}
                     </div>
                     <h1>{{ page.title }}</h1>
                     {% if page.subtitle %}
                     <h2 class="subheading">{{ page.subtitle }}</h2>
                     {% endif %}
-                    <span class="meta">Posted on {{ page.date | date: "%Y-%m-%d" }}</span>
+                    <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</span>
                 </div>
             </div>
         </div>
@@ -39,7 +39,6 @@ layout: default
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 post-container">
 
                 {{ content }}
-
 
                 <hr>
 
@@ -72,7 +71,7 @@ layout: default
 
 <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 <script type="text/javascript">
-var duoshuoQuery = {short_name:"azeril"};
+var duoshuoQuery = {short_name:"cnfeat"};
     (function() {
         var ds = document.createElement('script');
         ds.type = 'text/javascript';ds.async = true;
@@ -83,10 +82,6 @@ var duoshuoQuery = {short_name:"azeril"};
     })();
 </script>
 <!-- 多说公共JS代码 end -->
-
-
-
-</script>
 
 <!-- async load function -->
 <script>
@@ -106,7 +101,7 @@ var duoshuoQuery = {short_name:"azeril"};
         anchors.options = {
           visible: 'always',
           placement: 'right',
-          icon: '#'
+          icon: ''
         };
         anchors.add().remove('.intro-header h1').remove('.subheading');
     })
