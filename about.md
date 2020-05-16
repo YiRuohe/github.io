@@ -1,11 +1,11 @@
 ---
 layout: page
 title: "About"
-description: "你的博客描述 " 
-header-img: "img/green.jpg"
+description: "Bio" 
+header-img: "img/black.jpg"
 ---
 
-这一页填写你的自我介绍。
+无法自洽的矛盾体
 
 
 

@@ -1,24 +1,24 @@
 # Site settings
-title: 意若何 # 你的博客名字，可以定义修订
-header-img: "img/green.jpg"
+title: "Man is a reed that thinks" # 你的博客名字，可以定义修订
+header-img: "img/black.jpg"
 tagline: "cn"  
-description: "这是我的博客，待用"  # 一句话描述你的博客
+description: "“ Man is only a reed, the weakest in nature, but he is a thinking reed. ”"  # 一句话描述你的博客
 baseurl: ""
-url: "http://cnfeat"  # 此处填写你的博客地址 
+url: "https://yiruohe.github.io/"  # 此处填写你的博客地址 
 
 # About/contact
 owner: 
-  name: "兰大侠" # 填写作者信息：名字
+  name: "兰胤余" # 填写作者信息：名字
   email: yinyu.lan@nlpr.ia.ac.cn # 填写作者信息：邮箱
-  bio: "啥时候开始写" # 填写作者信息：博客描述
+  bio: "无法自洽的矛盾体" # 填写作者信息：博客描述
 
 # Data
-gavatar: img/favicon.png # 浏览器地址栏小图标，可自定义更改
-favicon: img/favicon.png # 浏览器地址栏小图标，可自定义更改
+gavatar: img/xixi.jpg # 浏览器地址栏小图标，可自定义更改
+favicon: img/xixi.jpg # 浏览器地址栏小图标，可自定义更改
 
 douban_username:  # 你的豆瓣id
 twitter_username: 
-github_username: 
+github_username: "YiRuohe"
 facebook_username: 
 weibo_username: 
 zhihu_username: 
@@ -43,8 +43,8 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "兰大侠" # 你的名字
-      header-img: "img/green.jpg" # We don't want posts without a header image, that whould mean white on white
+      author: "兰胤余" # 你的名字
+      header-img: "img/black.jpg" # We don't want posts without a header image, that whould mean white on white
 
 # Comments 
 comments :
