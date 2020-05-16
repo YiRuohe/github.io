@@ -5,6 +5,7 @@ date: 2020-05-16
 categories: blog
 tags: [pytorch,tensorboard]
 description: pytorch可视化
+typora-root-url: img
 ---
 
 ICLR 2016 Reasoning about Entailment with Neural Attention
@@ -16,3 +17,4 @@ $$
 x = ssda*das*dadasd*asd
 $$
 
+<img src="/20200516190635.jpg" alt="20200516190635" style="zoom: 33%;" />
