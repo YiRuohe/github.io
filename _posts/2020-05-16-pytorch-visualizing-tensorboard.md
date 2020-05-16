@@ -8,13 +8,18 @@ description: pytorch可视化
 typora-root-url: img
 ---
 
-ICLR 2016 Reasoning about Entailment with Neural Attention
-
- 
+![20200516190635.jpg](https://github.com/YiRuohe/YiRuohe.github.io/blob/master/_posts/img/20200516190635.jpg)
 
 
-$$
-x = ssda*das*dadasd*asd
-$$
 
-<img src="/20200516190635.jpg" />
+<center>
+	<p><img src="https://github.com/YiRuohe/YiRuohe.github.io/blob/master/_posts/img/20200516190635.jpg" align="center"></p>
+</center>
+
+ <center>
+	<p><img src="https://github.com/YiRuohe/YiRuohe.github.io/blob/master/_posts/img/20200516190635.jpg" align="center"></p>
+</center>
+
+![20200516190635.jpg](https://github.com/YiRuohe/YiRuohe.github.io/blob/master/_posts/img/20200516190635.jpg)
+
+![20200516190635](/20200516190635.jpg)
