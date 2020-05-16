@@ -17,4 +17,4 @@ $$
 x = ssda*das*dadasd*asd
 $$
 
-<img src="/20200516190635.jpg" alt="20200516190635" style="zoom: 33%;" />
+<img src="/20200516190635.jpg" />
