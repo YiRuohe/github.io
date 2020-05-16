@@ -22,4 +22,5 @@ typora-root-url: img
 
 ![20200516190635.jpg](https://github.com/YiRuohe/YiRuohe.github.io/blob/master/_posts/img/20200516190635.jpg)
 
-![20200516190635](/20200516190635.jpg)
+![tumblr_nots6cQgeH1s38xcxo1_1280](/tumblr_nots6cQgeH1s38xcxo1_1280.jpg)
+
